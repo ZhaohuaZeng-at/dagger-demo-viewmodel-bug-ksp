@@ -39,8 +39,8 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun ProfileScreen(viewModel: ProfileScreenViewModel = hiltViewModel()) {
-    Text(text = viewModel.state)
+fun ProfileScreen() {
+    Text(text = "ProfileScreen")
 }
 
 @Composable
